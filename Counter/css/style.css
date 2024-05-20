@@ -4,13 +4,36 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .main {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 350px;
+    width: 500px;
+    border-radius: 30px;
+    /* From https://css.glass */
+    background: rgba(80, 77, 77, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(80, 77, 77, 0.78);
     align-items: center;
     flex-direction: column;
+    column-gap: 20px;
     font-size: 40px;
+    color: white;
 }
 
 button {
