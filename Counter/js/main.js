@@ -5,6 +5,7 @@ let count = 0;
 btn.forEach((btn) => {
   btn.addEventListener("click", (eachBtn) => {
     let className = eachBtn.target.className;
+    console.log(className);
 
     if (className.includes("Incress")) {
       count++;
