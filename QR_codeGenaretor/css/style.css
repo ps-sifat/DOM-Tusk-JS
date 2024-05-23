@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background: rgb(83, 232, 90);
+    flex-direction: column;
+    border-radius: 20px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.7px);
+    -webkit-backdrop-filter: blur(15.7px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.inputFlied {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.inputFlied:focus {
+    color: blue;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 15px 2px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+}
