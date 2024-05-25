@@ -54,4 +54,6 @@ button {
     outline: 0;
     border: 1px solid black;
     cursor: pointer;
+    background: rgb(47, 255, 102);
+    color: rgb(0, 0, 118);
 }
